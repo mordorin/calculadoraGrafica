@@ -18,7 +18,7 @@
 
 package simplejavacalculator;
 
-import java.awt.FlowLayout;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -30,7 +30,7 @@ import java.awt.Font;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 
-import java.awt.Image;
+
 import javax.swing.ImageIcon; 
 import java.io.*;
 
@@ -217,6 +217,7 @@ public class UI implements ActionListener {
       butCancel.addActionListener(this);
       
       frame.add(panel);
+      frame.show();
    }
    
    @Override
